@@ -77,7 +77,7 @@ class InstrumentedTest {
     @OptIn(ExperimentalCoroutinesApi::class)
     @Test(timeout = MAX_TIMEOUT)
     fun runInApp() = runTest {
-        val pr = uiDevice?.findObject(UiSelector().textContains(appContext.getString(R.string.check_string)))
+        val pr = uiDevice?.findObject(UiSelector().textContains("Hello Android!"))
         checkNotNull(pr)
         pr.click()
     }

@@ -1,5 +1,4 @@
 <resources>
     <string name="app_name">SyncServiceApp</string>
     <string name="sync_in_progress">Sync...</string>
-    <string name="check_string">Hello Android!</string>
 </resources>
